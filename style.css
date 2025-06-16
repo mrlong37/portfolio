@@ -1,1 +1,77 @@
+.inbed { 
+    text-align: center;
+    
+}
 
+/* The code below adds a white background-color and black text color for the body of the page. */
+body {
+    color: rgb(194, 219, 255);
+    text-align: center;
+    background-color: rgb(194, 219, 255);
+}
+
+
+/* The code below adds a black background-color and white text color for each section heading. */
+.section {
+    color:rgb(237, 247, 251);
+    text-align: center;
+    background-color: rgb(87, 123, 139);
+}
+
+p{
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 40px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 100px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(170, 199, 211);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: rgb(9, 36, 48);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Bahnschrift', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(237, 247, 251);
+  color: rgb(9, 36, 48);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(9, 36, 48);
+  color: rgb(237, 247, 251);
+  font-family: 'Bahnschrift', sans-serif;
+}
