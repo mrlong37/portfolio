@@ -7,7 +7,7 @@
 body {
     color: rgb(194, 219, 255);
     text-align: center;
-    background-color: rgb(194, 219, 255);
+    background-image: url(assets/portfolioBackground.png);
 }
 
 
@@ -34,7 +34,13 @@ h1{
   color: white;
 }
 
+.gram{
+  width: 200px;
+}
 
+.frame{
+padding-right: 1000px;
+}
 
 /* Centered text */
 .centered {
@@ -46,32 +52,3 @@ h1{
   font-size: 100px;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: rgb(170, 199, 211);
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: rgb(9, 36, 48);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: 'Bahnschrift', sans-serif;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: rgb(237, 247, 251);
-  color: rgb(9, 36, 48);
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: rgb(9, 36, 48);
-  color: rgb(237, 247, 251);
-  font-family: 'Bahnschrift', sans-serif;
-}
