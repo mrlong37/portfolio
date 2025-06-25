@@ -2,22 +2,36 @@
 <html>
 <head>
   <title>Student Portfolio</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script defer src="script.js"></script>
+  <link href="main.css" rel="stylesheet" type="text/css" />
+  <script defer src="main.js"></script>
 </head>
 
 <body>
 
-  <div class="topnav">
-  <a class="active" href="#main">About Me</a>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#about">About Me</a>
   <a href="projects.html">Projects</a>
   <a href="gallery.html">Gallery</a>
   <a href="resume.html">Resume</a>
-  <a href="contact.html">Contact</a> 
+  <a href="contact.html">Contact</a>
+</div>
 
-<div class="about">
-  <img class ="frame" src="assets/woodframe.png">
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+</div>
+
+<div class="title">
+  <img class="doily" src="https://th.bing.com/th/id/R.d959c6f2f479b105b63a7d6594842e35?rik=LZO%2fPSYxw4iFWA&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f223-2237644_cookies.png&ehk=7z3GHg1Cl%2fZrP2PuLuN8mobzap6M%2fo1rfoOL2OllcP0%3d&risl=&pid=ImgRaw&r=0">
+</div>
+
+<div id="about">
+  
   <button class="fish1"><img src="assets/fish1.PNG"></button>
+  <button class="fish2"><img src="assets/fish2.PNG"></button>
+  <button class="fish3"><img src="assets/fish3.PNG"></button>
+  <button class="fish4"><img src="assets/fish4.PNG"></button>
+  <button class="fish5"><img src="assets/fish5.PNG"></button>
 </div>
 
   <div class="music">

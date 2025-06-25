@@ -1,0 +1,164 @@
+.inbed { 
+    text-align: center;
+    
+}
+
+/* The code below adds a white background-color and black text color for the body of the page. */
+body {
+    color: rgb(194, 219, 255);
+    text-align: center;
+    background-image: url(assets/portfolioBackground.png);
+}
+
+
+/* The code below adds a black background-color and white text color for each section heading. */
+.section {
+    color:rgb(237, 247, 251);
+    text-align: center;
+    background-color: rgb(87, 123, 139);
+}
+
+p{
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 40px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.gram{
+  width: 200px;
+}
+
+.doily{
+  width:1150px;
+  margin-top: -65px;
+}
+
+#about{
+background-image: url(assets/woodframe.png);
+background-repeat: no-repeat;
+background-size: 750px;
+background-position-y: 150px;
+padding-top: 150px;
+width: 820px;
+padding-bottom: 40px;
+}
+
+.fish1 img{
+  width: 250px;
+}
+
+.fish1 {
+  background-color: transparent;
+  border-color: black;
+  box-sizing: content-box;
+}
+
+.fish2 img{
+  width: 300px;
+}
+
+.fish2{
+  border-color: black;
+  background-color: transparent;
+}
+
+.fish3 img{
+  width: 300px;
+}
+
+.fish3{
+  border-color: black;
+  background-color: transparent;
+}
+
+.fish4 img{
+  width: 300px;
+}
+
+.fish4{
+  border-color: black;
+  background-color: transparent;
+}
+
+.fish5 img{
+  width: 300px;
+}
+
+.fish5{
+  border-color: black;
+  background-color: transparent;
+}
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding-right: 1400px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
