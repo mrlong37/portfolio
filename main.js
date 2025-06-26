@@ -9,3 +9,5 @@ function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
+
+//add background music by autoplaying a hidden youtube video

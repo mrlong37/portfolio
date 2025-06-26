@@ -56,25 +56,29 @@ padding-bottom: 40px;
 }
 
 .fish1 img{
-  width: 250px;
+  width: 200px;
 }
 
 .fish1 {
+  
   background-color: transparent;
   border-color: black;
-  box-sizing: content-box;
   position: absolute;
   top: 1200px;
-  left: 90px;
+  left: 100px;
 }
 
 .fish2 img{
-  width: 300px;
+  width: 400px;
 }
 
 .fish2{
   border-color: black;
   background-color: transparent;
+  position: absolute;
+  top: 890px;
+  left: 375px;
+  transform: scaleX(-1);
 }
 
 .fish3 img{
@@ -84,24 +88,35 @@ padding-bottom: 40px;
 .fish3{
   border-color: black;
   background-color: transparent;
+  position: absolute;
+  top: 1190px;
+  left: 450px;
+  transform: scaleX(-1);
 }
 
 .fish4 img{
-  width: 300px;
+  width: 400px;
 }
 
 .fish4{
   border-color: black;
   background-color: transparent;
+  position: absolute;
+  top: 1050px;
+  left: 200px;
+  
 }
 
 .fish5 img{
-  width: 300px;
+  width: 350px;
 }
 
 .fish5{
   border-color: black;
   background-color: transparent;
+  position: absolute;
+  top: 950px;
+  left: 70px;
 }
 
 /* The sidebar menu */
