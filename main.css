@@ -40,16 +40,18 @@ h1{
 
 .doily{
   width:1150px;
-  margin-top: -65px;
+  margin-top: -5px;
+}
+
+.frame{
+  width:800px;
+  padding-right:800px;
+  margin-top: -25px;
 }
 
 #about{
-background-image: url(assets/woodframe.png);
-background-repeat: no-repeat;
-background-size: 750px;
-background-position-y: 150px;
 padding-top: 150px;
-width: 820px;
+width: 900px;
 padding-bottom: 40px;
 }
 
@@ -61,6 +63,9 @@ padding-bottom: 40px;
   background-color: transparent;
   border-color: black;
   box-sizing: content-box;
+  position: absolute;
+  top: 1200px;
+  left: 90px;
 }
 
 .fish2 img{
@@ -145,6 +150,7 @@ padding-bottom: 40px;
   color: white;
   padding: 10px 15px;
   border: none;
+  position: fixed;
 }
 
 .openbtn:hover {
