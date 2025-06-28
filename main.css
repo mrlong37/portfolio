@@ -45,8 +45,9 @@ h1{
 
 .frame{
   width:800px;
-  padding-right:800px;
+  padding-right:700px;
   margin-top: -25px;
+  margin-left:0px;
 }
 
 #about{
@@ -117,6 +118,22 @@ padding-bottom: 40px;
   position: absolute;
   top: 950px;
   left: 70px;
+}
+
+.box{
+  position: absolute;
+  top:815px;
+  left:800px;
+  width:650px;
+}
+
+.abouttitle{
+  position:absolute;
+  top:650px;
+  left:600px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 100px;
+  color: black;
 }
 
 /* The sidebar menu */

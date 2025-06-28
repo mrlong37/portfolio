@@ -10,4 +10,14 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
 }
 
-//add background music by autoplaying a hidden youtube video
+  const music = document.getElementById("bg-music");
+  let isPlaying = false;
+
+  function toggleMusic() {
+    if (isPlaying) {
+      music.play();
+    } else {
+      music.pause();
+    }
+    isPlaying = !isPlaying;
+  }
