@@ -26,17 +26,29 @@ width: 900px;
 padding-bottom: 40px;
 }
 
+
+
 .fish1 img{
   width: 200px;
 }
 
 .fish1 {
   
-  background-color: transparent;
-  border-color: black;
+  background-color: black;
+  border-color: transparent;
   position: absolute;
   top: 1200px;
   left: 100px;
+  clip-path: polygon(
+    25% 0%,   /* top-left */
+    75% 0%,   /* top-right */
+    100% 50%, /* right */
+    75% 100%, /* bottom-right */
+    25% 100%, /* bottom-left */
+    0% 50%    /* left */
+  );
+
+
 }
 
 .fish2 img{
