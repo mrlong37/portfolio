@@ -1,37 +1,7 @@
-.inbed { 
-    text-align: center;
-    
-}
 
-/* The code below adds a white background-color and black text color for the body of the page. */
 body {
-    color: rgb(194, 219, 255);
     text-align: center;
     background-image: url(assets/portfolioBackground.png);
-}
-
-
-/* The code below adds a black background-color and white text color for each section heading. */
-.section {
-    color:rgb(237, 247, 251);
-    text-align: center;
-    background-color: rgb(87, 123, 139);
-}
-
-p{
-    font-family: 'Bahnschrift', sans-serif;
-    font-size: 20px;
-}
-
-h1{
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 40px;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
 }
 
 .gram{
@@ -123,17 +93,17 @@ padding-bottom: 40px;
 .box{
   position: absolute;
   top:815px;
-  left:800px;
+  left:825px;
   width:650px;
 }
 
 .abouttitle{
   position:absolute;
   top:650px;
-  left:600px;
-  font-family: 'Helvetica', sans-serif;
+  left:538px;
+  font-family: 'Goudy Old Style', serif;
   font-size: 100px;
-  color: black;
+  color: rgb(54, 57, 95);
 }
 
 /* The sidebar menu */
