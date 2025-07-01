@@ -4,8 +4,16 @@ body {
     background-image: url(assets/portfolioBackground.png);
 }
 
-.gram{
+.gram img{
   width: 200px;
+}
+
+.gram{
+  background-color: transparent;
+  border-color: transparent;
+  position: absolute;
+  top: 1475px;
+  left:25px;
 }
 
 .doily{
@@ -23,7 +31,6 @@ body {
 }
 
 .world{
-  position:absolute;
   position:absolute;
   top:360px;
   left:525px;
@@ -167,33 +174,47 @@ padding-bottom: 40px;
 
 .bio{
   position: absolute;
-  top: 1050px;
-  left: 900px;
+  top: 1180px;
+  left: 925px;
+  width: 450px;
+  font-size: 25px;
+  color: rgb(40, 43, 78);
 }
 
 .hobbies{
   position: absolute;
-  top: 1050px;
-  left: 900px;
+  top: 1175px;
+  left: 925px;
+  width: 450px;
+  font-size: 25px;
+  color: rgb(40, 43, 78);
 }
 
 .future{
   position: absolute;
-  top: 1050px;
-  left: 900px;
+  top: 1125px;
+  left: 925px;
+  width: 450px;
+  font-size: 25px;
+  color: rgb(40, 43, 78);
 }
 
 .experience{
   position: absolute;
-  top: 1050px;
-  left: 900px;
+  top: 1275px;
+  left: 925px;
+  width: 450px;
+  font-size: 25px;
+  color: rgb(40, 43, 78);
 }
 
 .academics{
   position: absolute;
-  top: 1050px;
-  left: 900px;
-  width: 500px;
+  top: 1100px;
+  left: 925px;
+  width: 450px;
+  font-size: 25px;
+  color: rgb(40, 43, 78);
 }
 
 .box{
