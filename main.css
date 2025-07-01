@@ -13,6 +13,27 @@ body {
   margin-top: -5px;
 }
 
+.name{
+  position:absolute;
+  top:200px;
+  left:375px;
+  font-size: 115px;
+  font-family: 'Goudy Old Style', serif;
+  color: rgb(68, 83, 135);
+}
+
+.world{
+  position:absolute;
+  position:absolute;
+  top:360px;
+  left:525px;
+  font-size: 50px;
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+  color: rgb(121, 134, 181);
+
+}
+
 .frame{
   width:800px;
   padding-right:700px;
@@ -138,9 +159,41 @@ padding-bottom: 40px;
   top: 1050px;
   left: 900px;
   font-family: 'Goudy Old Style', serif;
-  width:500px;
+  width: 500px;
   font-size: 50px;
-  color: rgb(93, 108, 134);
+  color: rgb(121, 134, 181);
+  /* rgb(93, 108, 134);*/
+}
+
+.bio{
+  position: absolute;
+  top: 1050px;
+  left: 900px;
+}
+
+.hobbies{
+  position: absolute;
+  top: 1050px;
+  left: 900px;
+}
+
+.future{
+  position: absolute;
+  top: 1050px;
+  left: 900px;
+}
+
+.experience{
+  position: absolute;
+  top: 1050px;
+  left: 900px;
+}
+
+.academics{
+  position: absolute;
+  top: 1050px;
+  left: 900px;
+  width: 500px;
 }
 
 .box{
@@ -156,7 +209,13 @@ padding-bottom: 40px;
   left:538px;
   font-family: 'Goudy Old Style', serif;
   font-size: 100px;
-  color: rgb(54, 57, 95);
+  color: rgb(68, 83, 135);
+  /* rgb(54, 57, 95);*/
+}
+
+.abouttext{
+  color:rgb(54, 57, 95);
+  width: 500px;
 }
 
 /* The sidebar menu */
