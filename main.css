@@ -12,8 +12,8 @@ body {
   background-color: transparent;
   border-color: transparent;
   position: absolute;
-  top: 1475px;
-  left:25px;
+  top: 1525px;
+  left:80px;
 }
 
 .doily{
@@ -237,6 +237,15 @@ padding-bottom: 40px;
 .abouttext{
   color:rgb(54, 57, 95);
   width: 500px;
+}
+
+.scroll{
+  width: 1000px;
+  transform: rotate(90deg);
+  position:absolute;
+  top:1150px;
+  left: 350px;
+  clip-path: inset(0 0 0 300px);
 }
 
 /* The sidebar menu */
