@@ -34,7 +34,7 @@ padding-bottom: 40px;
 
 .fish1 {
   
-  background-color: black;
+  background-color: transparent;
   border-color: transparent;
   position: absolute;
   top: 1200px;
@@ -56,12 +56,20 @@ padding-bottom: 40px;
 }
 
 .fish2{
-  border-color: black;
+  border-color: transparent;
   background-color: transparent;
   position: absolute;
   top: 890px;
   left: 375px;
   transform: scaleX(-1);
+  clip-path: polygon(
+    25% 0%,   /* top-left */
+    75% 0%,   /* top-right */
+    100% 50%, /* right */
+    75% 100%, /* bottom-right */
+    25% 100%, /* bottom-left */
+    0% 50%    /* left */
+  );
 }
 
 .fish3 img{
@@ -69,12 +77,20 @@ padding-bottom: 40px;
 }
 
 .fish3{
-  border-color: black;
+  border-color: transparent;
   background-color: transparent;
   position: absolute;
   top: 1190px;
   left: 450px;
   transform: scaleX(-1);
+  clip-path: polygon(
+    25% 0%,   /* top-left */
+    75% 0%,   /* top-right */
+    100% 50%, /* right */
+    75% 100%, /* bottom-right */
+    25% 100%, /* bottom-left */
+    0% 50%    /* left */
+  );
 }
 
 .fish4 img{
@@ -82,12 +98,19 @@ padding-bottom: 40px;
 }
 
 .fish4{
-  border-color: black;
+  border-color: transparent;
   background-color: transparent;
   position: absolute;
   top: 1050px;
   left: 200px;
-  
+  clip-path: polygon(
+    25% 0%,   /* top-left */
+    75% 0%,   /* top-right */
+    100% 50%, /* right */
+    75% 100%, /* bottom-right */
+    25% 100%, /* bottom-left */
+    0% 50%    /* left */
+  );
 }
 
 .fish5 img{
@@ -95,11 +118,29 @@ padding-bottom: 40px;
 }
 
 .fish5{
-  border-color: black;
+  border-color: transparent;
   background-color: transparent;
   position: absolute;
   top: 950px;
   left: 70px;
+  clip-path: polygon(
+    25% 0%,   /* top-left */
+    75% 0%,   /* top-right */
+    100% 50%, /* right */
+    75% 100%, /* bottom-right */
+    25% 100%, /* bottom-left */
+    0% 50%    /* left */
+  );
+}
+
+.instruct{
+  position: absolute;
+  top: 1050px;
+  left: 900px;
+  font-family: 'Goudy Old Style', serif;
+  width:500px;
+  font-size: 50px;
+  color: rgb(93, 108, 134);
 }
 
 .box{

@@ -16,7 +16,7 @@ let f3 = document.querySelector(".fish3");
 let f4 = document.querySelector(".fish4");
 let f5 = document.querySelector(".fish5");
 
-f1.addEventListener('click', function(){
+f4.addEventListener('click', function(){
 document.querySelector(".bio").style.display="block";
 document.querySelector(".instruct").style.display="none";
 document.querySelector(".hobbies").style.display="none";
@@ -43,7 +43,7 @@ document.querySelector(".experience").style.display="none";
 document.querySelector(".academics").style.display="none";
 });
 
-f4.addEventListener('click', function(){
+f1.addEventListener('click', function(){
 document.querySelector(".bio").style.display="none";
 document.querySelector(".instruct").style.display="none";
 document.querySelector(".hobbies").style.display="none";
