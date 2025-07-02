@@ -8,3 +8,15 @@ function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
+
+  const music = document.getElementById("bg-music");
+  let isPlaying = false;
+
+  function toggleMusic() {
+    if (isPlaying) {
+      music.play();
+    } else {
+      music.pause();
+    }
+    isPlaying = !isPlaying;
+  }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Student Portfolio</title>
+  <title>Madeleine Long Student Portfolio</title>
   <link href="contact.css" rel="stylesheet" type="text/css" />
   <script defer src="contact.js"></script>
 </head>
@@ -20,6 +20,45 @@
 <div id="main">
   <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
 </div>
+
+<div class="container">
+  
+  <h1 class="abouttitle">Contact Me</h1>
+  
+  <div class="row">
+    <div class="column">
+      <img src="https://th.bing.com/th/id/R.8c22e867d8cb6aa0a8db2d7113a691af?rik=ym8jaXMkSTu8Lw&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f580b585b2edbce24c47b2468.png&ehk=URhofqrPzAdOUgCScqK8SYYw64DVUslZ%2fyqxGtpQfjM%3d&risl=&pid=ImgRaw&r=0" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label class="f" for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label class="l" for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        </select>
+        <label class="s" for="subject">Write me a letter!</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="music">
+
+  <img class="faure" src="assets/korsakov.png" alt="a painted portrait of composer Nikolai Rimsky-Korsakov">
+  <p class="musictext">Currently Playing:</p>
+  <p class="guy">Nikolai Rimsky-Korsakov – Scheherazade Op. 35, IV</p> 
+  <p class="submusictext">Click the gramophone to pause/play.</p>  
+  <audio id="bg-music" autoplay loop>
+  <source src="assets/scheIV.mp3" type="audio/mpeg">
+  </audio>
+  <img class="scroll" src="assets/musicinfo.PNG">
+
+  </div>
+
+  <button class="gram" onclick="toggleMusic()"><img src="assets/gramophone.png"></button>
 
 </body>
 </html>

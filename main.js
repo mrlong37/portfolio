@@ -10,19 +10,6 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
 }
 
-//let aboutme = document.querySelector("#aboutme");
-//let about = document.querySelector("#about");
-//aboutme.addEventListener('click', function(){
-// about.scrollIntoView();
-//});
-
-//function scrollToSection() {
- // const element = document.getElementById("about");
- // element.scrollIntoView({ behavior: "smooth" });
-//}
-
-
-
 
 let f1 = document.querySelector(".fish1");
 let f2 = document.querySelector(".fish2");
@@ -32,47 +19,72 @@ let f5 = document.querySelector(".fish5");
 
 f4.addEventListener('click', function(){
 document.querySelector(".bio").style.display="block";
+document.querySelector(".biopic").style.display="block";
 document.querySelector(".instruct").style.display="none";
 document.querySelector(".hobbies").style.display="none";
+document.querySelector(".hobbiespic").style.display="none";
 document.querySelector(".future").style.display="none";
+document.querySelector(".futurepic").style.display="none";
 document.querySelector(".experience").style.display="none";
+document.querySelector(".experiencepic").style.display="none";
 document.querySelector(".academics").style.display="none";
+document.querySelector(".academicspic").style.display="none";
 });
 
 f2.addEventListener('click', function(){
 document.querySelector(".bio").style.display="none";
+document.querySelector(".biopic").style.display="none";
 document.querySelector(".instruct").style.display="none";
 document.querySelector(".hobbies").style.display="block";
+document.querySelector(".hobbiespic").style.display="block";
 document.querySelector(".future").style.display="none";
+document.querySelector(".futurepic").style.display="none";
 document.querySelector(".experience").style.display="none";
+document.querySelector(".experiencepic").style.display="none";
 document.querySelector(".academics").style.display="none";
+document.querySelector(".academicspic").style.display="none";
 });
 
 f3.addEventListener('click', function(){
 document.querySelector(".bio").style.display="none";
+document.querySelector(".biopic").style.display="none";
 document.querySelector(".instruct").style.display="none";
 document.querySelector(".hobbies").style.display="none";
+document.querySelector(".hobbiespic").style.display="none";
 document.querySelector(".future").style.display="block";
+document.querySelector(".futurepic").style.display="block";
 document.querySelector(".experience").style.display="none";
+document.querySelector(".experiencepic").style.display="none";
 document.querySelector(".academics").style.display="none";
+document.querySelector(".academicspic").style.display="none";
 });
 
 f1.addEventListener('click', function(){
 document.querySelector(".bio").style.display="none";
+document.querySelector(".biopic").style.display="none";
 document.querySelector(".instruct").style.display="none";
 document.querySelector(".hobbies").style.display="none";
+document.querySelector(".hobbiespic").style.display="none";
 document.querySelector(".future").style.display="none";
+document.querySelector(".futurepic").style.display="none";
 document.querySelector(".experience").style.display="block";
+document.querySelector(".experiencepic").style.display="block";
 document.querySelector(".academics").style.display="none";
+document.querySelector(".academicspic").style.display="none";
 });
 
 f5.addEventListener('click', function(){
 document.querySelector(".bio").style.display="none";
+document.querySelector(".biopic").style.display="none";
 document.querySelector(".instruct").style.display="none";
 document.querySelector(".hobbies").style.display="none";
+document.querySelector(".hobbiespic").style.display="none";
 document.querySelector(".future").style.display="none";
+document.querySelector(".futurepic").style.display="none";
 document.querySelector(".experience").style.display="none";
+document.querySelector(".experiencepic").style.display="none";
 document.querySelector(".academics").style.display="block";
+document.querySelector(".academicspic").style.display="block";
 });
 
 

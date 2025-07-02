@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Student Portfolio</title>
+  <title>Madeleine Long Student Portfolio</title>
   <link href="gallery.css" rel="stylesheet" type="text/css" />
   <script defer src="gallery.js"></script>
 </head>
@@ -21,7 +21,40 @@
   <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
 </div>
 
-<img src="https://i.pinimg.com/originals/ab/a0/9c/aba09cf98ca6211e8dbcd3bc5c8879e3.png">
+<div id="gallery"></div>
+
+  <h1 class="abouttitle">The Gallery</h1>
+  <img class="I" src="assets/gal_bass.png" alt="a photo of me playing bass at Guitar Center">
+  <img class="II" src="assets/gal_chamber.png" alt="a photo of me performing flute for a small group of elderly people">
+  <img class="III" src="assets/gal_cool.png" alt="a photo of my catapult friends all working on our portfolios">
+  <img class="IV" src="assets/gal_dachs.png" alt="a photo of me working with a friend on the German club shirts">
+  <img class="V" src="assets/gal_dc.png" alt="a photo of my youth orchestra in DC">
+  <img class="VI" src="assets/gal_friends.png" alt="a photo of my school friends">
+  <img class="VII" src="assets/gal_math.png" alt="a photo of me and a friend after completing a 14-hour math competition">
+  <img class="VIII" src="assets/gal_nail.png" alt="a photo of my nails, I painted them turquoise with hibiscus flowers">
+  <img class="IX" src="assets/gal_robo.png" alt="a photo of the robotics club's unfinished claw bot">
+  <img class="X" src="assets/gal_straw.png" alt="a photo of my nails, I painted them red and white with a strawberry pattern">
+  <img class="XI" src="assets/gal_vol.png" alt="a photo of me volunteering with my friends">
+  
+</div>
+
+
+  <div class="music">
+
+  <img class="faure" src="assets/korsakov.png" alt="a painted portrait of composer Nikolai Rimsky-Korsakov">
+  <p class="musictext">Currently Playing:</p>
+  <p class="guy">Nikolai Rimsky-Korsakov – Scheherazade Op. 35, II</p> 
+  <p class="submusictext">Click the gramophone to pause/play.</p>  
+  <audio id="bg-music" autoplay loop>
+  <source src="assets/scheII.mp3" type="audio/mpeg">
+  </audio>
+  <img class="scroll" src="assets/musicinfo.PNG">
+
+  </div>
+
+
+
+<button class="gram" onclick="toggleMusic()"><img src="assets/gramophone.png" alt="a photo of an antique gramophone"></button>
 
 </body>
 </html>

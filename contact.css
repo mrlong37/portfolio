@@ -1,3 +1,154 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/7a/c3/28/7ac3281b6df94009c8e68932c66fd48c.jpg);
+    text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.abouttitle{
+  margin-top:-15px;
+  font-family: 'Goudy Old Style', serif;
+  font-size: 100px;
+  color: rgb(83, 30, 57);
+  
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(83, 30, 57);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Goudy Old Style', serif;
+  font-size: larger;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.l{
+    font-size: 30px;
+    color: rgb(83, 30, 57);
+}
+.f{
+    font-size: 30px;
+    color: rgb(83, 30, 57);
+}
+.s{
+    font-size: 30px;
+    color: rgb(83, 30, 57);
+}
+
+#lname{
+    font-family: 'Goudy Old Style', serif;
+}
+#fname{
+    font-family: 'Goudy Old Style', serif;
+}
+#subject{
+    font-family: 'Goudy Old Style', serif;
+}
+
+.gram img{
+  width: 200px;
+}
+
+.gram{
+  background-color: transparent;
+  border-color: transparent;
+  position: absolute;
+  top: 825px;
+  left:80px;
+}
+
+.faure{
+  width:225px;
+  position:absolute;
+  top:800px;
+  left:475px;
+  z-index:2;
+}
+
+.musictext{
+  font-size:30px;
+  position:absolute;
+  top:850px;
+  left:850px;
+  z-index:2;
+  color: rgb(55, 27, 12);
+}
+
+.guy{
+  font-size:25px;
+  font-style: italic;
+  position:absolute;
+  top:900px;
+  left:700px;
+  z-index:2;
+  color: rgb(55, 27, 12);
+}
+
+.submusictext{
+  font-size:20px;
+  position:absolute;
+  top:1025px;
+  left:825px;
+  z-index:2;
+  color: rgb(55, 27, 12);
+}
+
+.scroll{
+  width: 1000px;
+  transform: rotate(90deg);
+  position:absolute;
+  top:450px;
+  left: 350px;
+  clip-path: inset(0 0 0 300px);
+  z-index: 1;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
 /* The sidebar menu */
 .sidebar {
   height: 100%; /* 100% Full-height */
@@ -6,7 +157,7 @@
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
-  background-color: #111; /* Black*/
+  background-color: #fff6da; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -17,7 +168,7 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #3d2108;
   display: block;
   transition: 0.3s;
 }
@@ -40,15 +191,17 @@
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
-  color: white;
+  background-color: #fff6da;
+  color: #3d2108;
   padding: 10px 15px;
   border: none;
   position: fixed;
+  font-family: 'Goudy Old Style', serif;
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: #3d2108;
+  color:white;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */

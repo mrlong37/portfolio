@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Student Portfolio</title>
+  <title>Madeleine Long Student Portfolio</title>
   <link href="resume.css" rel="stylesheet" type="text/css" />
   <script defer src="resume.js"></script>
 </head>
@@ -20,6 +20,32 @@
 <div id="main">
   <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
 </div>
+
+<div id="resume"></div>
+
+  <h1 class="abouttitle">My Resume</h1>
+  <img class="res" src="assets/resumes.png">
+  
+</div>
+
+
+  <div class="music">
+
+  <img class="faure" src="assets/korsakov.png" alt="a painted portrait of composer Nikolai Rimsky-Korsakov">
+  <p class="musictext">Currently Playing:</p>
+  <p class="guy">Nikolai Rimsky-Korsakov – Scheherazade Op. 35, III</p> 
+  <p class="submusictext">Click the gramophone to pause/play.</p>  
+  <audio id="bg-music" autoplay loop>
+  <source src="assets/scheIII.mp3" type="audio/mpeg">
+  </audio>
+  <img class="scroll" src="assets/musicinfo.PNG">
+
+  </div>
+
+
+
+<button class="gram" onclick="toggleMusic()"><img src="assets/gramophone.png" alt="a photo of an antique gramophone"></button>
+
 
 </body>
 </html>

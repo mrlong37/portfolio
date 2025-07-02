@@ -16,6 +16,42 @@ body {
   left:80px;
 }
 
+.faure{
+  width:275px;
+  position:absolute;
+  top:1500px;
+  left:475px;
+  z-index:2;
+}
+
+.musictext{
+  font-size:30px;
+  position:absolute;
+  top:1550px;
+  left:850px;
+  z-index:2;
+  color: rgb(55, 27, 12);
+}
+
+.guy{
+  font-size:30px;
+  font-style: italic;
+  position:absolute;
+  top:1600px;
+  left:775px;
+  z-index:2;
+  color: rgb(55, 27, 12);
+}
+
+.submusictext{
+  font-size:20px;
+  position:absolute;
+  top:1725px;
+  left:825px;
+  z-index:2;
+  color: rgb(55, 27, 12);
+}
+
 .doily{
   width:1150px;
   margin-top: -5px;
@@ -172,6 +208,13 @@ padding-bottom: 40px;
   /* rgb(93, 108, 134);*/
 }
 
+.biopic{
+  position:absolute;
+  top: 900px;
+  left: 990px;
+  width: 325px;
+}
+
 .bio{
   position: absolute;
   top: 1180px;
@@ -179,6 +222,14 @@ padding-bottom: 40px;
   width: 450px;
   font-size: 25px;
   color: rgb(40, 43, 78);
+}
+
+.hobbiespic{
+  position:absolute;
+  top: 915px;
+  left: 950px;
+  width:400px;
+
 }
 
 .hobbies{
@@ -190,6 +241,13 @@ padding-bottom: 40px;
   color: rgb(40, 43, 78);
 }
 
+.futurepic{
+  position: absolute;
+  top: 895px;
+  left: 990px;
+  width:325px;
+}
+
 .future{
   position: absolute;
   top: 1125px;
@@ -199,13 +257,28 @@ padding-bottom: 40px;
   color: rgb(40, 43, 78);
 }
 
+.experiencepic{
+  position: absolute;
+  top: 900px;
+  left: 990px;
+  width:325px;
+}
+
 .experience{
   position: absolute;
-  top: 1275px;
+  top: 1245px;
   left: 925px;
   width: 450px;
   font-size: 25px;
   color: rgb(40, 43, 78);
+}
+
+.academicspic{
+  position:absolute;
+  top: 900px;
+  left: 1000px;
+  width: 300px;
+
 }
 
 .academics{
@@ -246,6 +319,7 @@ padding-bottom: 40px;
   top:1150px;
   left: 350px;
   clip-path: inset(0 0 0 300px);
+  z-index: 1;
 }
 
 /* The sidebar menu */
@@ -262,12 +336,26 @@ padding-bottom: 40px;
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
 
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #fff6da; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
 /* The sidebar links */
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #3d2108;
   display: block;
   transition: 0.3s;
 }
@@ -290,15 +378,17 @@ padding-bottom: 40px;
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
-  color: white;
+  background-color: #fff6da;
+  color: #3d2108;
   padding: 10px 15px;
   border: none;
   position: fixed;
+  font-family: 'Goudy Old Style', serif;
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: #3d2108;
+  color:white;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */

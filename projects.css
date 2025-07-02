@@ -1,5 +1,137 @@
 body{
-    background-image: url(https://wallpaperbat.com/img/568481-68331-mary-light-blue-floral-vine-wallpaper.jpg);
+    background-image: url(https://wallpaperbat.com/img/961549-1980s-floral-vintage-wallpaper.jpg);
+    text-align: center;
+}
+
+.gram img{
+  width: 200px;
+}
+
+.gram{
+  background-color: transparent;
+  border-color: transparent;
+  position: absolute;
+  top: 825px;
+  left:80px;
+}
+
+.faure{
+  width:225px;
+  position:absolute;
+  top:800px;
+  left:475px;
+  z-index:2;
+}
+
+.musictext{
+  font-size:30px;
+  position:absolute;
+  top:850px;
+  left:850px;
+  z-index:2;
+  color: rgb(55, 27, 12);
+}
+
+.guy{
+  font-size:25px;
+  font-style: italic;
+  position:absolute;
+  top:900px;
+  left:715px;
+  z-index:2;
+  color: rgb(55, 27, 12);
+}
+
+.submusictext{
+  font-size:20px;
+  position:absolute;
+  top:1025px;
+  left:825px;
+  z-index:2;
+  color: rgb(55, 27, 12);
+}
+
+.scroll{
+  width: 1000px;
+  transform: rotate(90deg);
+  position:absolute;
+  top:450px;
+  left: 350px;
+  clip-path: inset(0 0 0 300px);
+  z-index: 1;
+}
+
+.abouttitle{
+  position:absolute;
+  top:-50px;
+  left:538px;
+  font-family: 'Goudy Old Style', serif;
+  font-size: 100px;
+  color: rgb(79, 11, 68);
+  
+}
+
+.frame{
+  width:800px;
+  padding-right:700px;
+  margin-top: 135px;
+  margin-left:0px;
+}
+
+.pear img{
+  width: 100px;
+}
+
+.pear {
+  
+  background-color: transparent;
+  border-color:  transparent;
+  position: absolute;
+  top: 475px;
+  left: 500px;
+}
+
+.octo img{
+  width: 250px;
+}
+
+.octo{
+  border-color:  transparent;
+  background-color:  transparent;
+  position: absolute;
+  top: 415px;
+  left: 120px;
+}
+
+.cloud img{
+  width: 400px;
+}
+
+.cloud{
+  border-color:  transparent;
+  background-color:  transparent;
+  position: absolute;
+  top: 225px;
+  left: 300px;
+}
+
+.box{
+  position: absolute;
+  top:110px;
+  left:825px;
+  width:650px;
+}
+
+.instruct{
+  position: absolute;
+  top: 350px;
+  left: 925px;
+  font-family: 'Goudy Old Style', serif;
+  width: 450px;
+  font-size: 40px;
+
+  color: rgb(111, 65, 119);
+  
 }
 
 /* The sidebar menu */
@@ -16,12 +148,26 @@ body{
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
 
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #fff6da; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
 /* The sidebar links */
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #3d2108;
   display: block;
   transition: 0.3s;
 }
@@ -44,15 +190,17 @@ body{
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
-  color: white;
+  background-color: #fff6da;
+  color: #3d2108;
   padding: 10px 15px;
   border: none;
   position: fixed;
+  font-family: 'Goudy Old Style', serif;
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: #3d2108;
+  color:white;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
