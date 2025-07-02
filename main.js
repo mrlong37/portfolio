@@ -10,6 +10,20 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
 }
 
+//let aboutme = document.querySelector("#aboutme");
+//let about = document.querySelector("#about");
+//aboutme.addEventListener('click', function(){
+// about.scrollIntoView();
+//});
+
+//function scrollToSection() {
+ // const element = document.getElementById("about");
+ // element.scrollIntoView({ behavior: "smooth" });
+//}
+
+
+
+
 let f1 = document.querySelector(".fish1");
 let f2 = document.querySelector(".fish2");
 let f3 = document.querySelector(".fish3");
